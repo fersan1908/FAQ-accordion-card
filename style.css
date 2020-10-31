@@ -26,9 +26,7 @@ body {
     position: relative;
 }
 
-
 /*half left*/
-
 .images {
     flex: 1;
     background-image: url(./images/bg-pattern-desktop.svg);
@@ -57,7 +55,6 @@ body {
 
 
 /*half right*/
-
 .questions {
     flex: 1;
     padding: 50px;
@@ -75,7 +72,6 @@ body {
     overflow: hidden;
     height: 45px;
 }
-
 
 input[type="checkbox"] { display: none; }
 #first:checked~span { font-weight: 700; }
